@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0"/>-->
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" id="theme-light"></link>
+  <link rel="stylesheet" href="" id="theme-dark"></link>
+		<title>GitHub User Search App</title>
+		<!-- Js -->
+		<script src="main.js" defer></script>
+</head>
+<body>		 
+		<header class="header">
+				<h1 class="header__title default">devfinder</h1>
+				<div class="header__theme" id="theme">
+						<div class="header__theme-name " id="theme-name">dark</div>	
+						<img src="assets/icon-moon.svg" alt="" class="header__theme-icon" id="theme-icon">
+				</div>
+		</header>
+				
+		<section class="search">
+				<img src="assets/icon-search.svg" alt="search-icon" class="search__icon">
+				<input type="text" placeholder="Search GitHub user" class="search__input" id="search-input">
+				<a class="search__btn"  id="search-user" >Search</a>
+		</section>
+				
+		<main class="user">
+		 		 
+				<section class="user__profile">
+						<div class="user__icon">
+								<img src="assets/583231.png" alt="user icon" id="user-icon">
+						</div>
+						<div class="user__details">
+								<p class="user__name" id="user-name">The Octocat</p>
+								<p class="user__link" id="user-link">@octocat</p>
+								<p class="user__join-date" id="user-date">Joined 26 jan 2011</p>
+						</div>
+				</section>
+					
+				<section class="user__bio">
+						<p id="bio">This profile has no bio.</p>
+				</section>
+						
+				<section class="user__social" id="social">
+						<div class="user__repo user--container">
+								<p class="user__header">Repo</p>
+								<p id="repo">7</p>
+						</div>
+						<div class="user__follower user--container">
+								<p class="user__header">Followers</p>
+								<p id="follower">7199</p>
+						</div>
+						<div class="user__following user--container">
+								<p class="user__header">Following</p>
+								<p id="following">9</p>
+						</div>
+				</section>
+						
+				<section class="user__info">
+						<div class="user__detail location">
+								<img src="assets/icon-location.svg" alt="location icon">
+								<span id="location">San Francisco</span>
+						</div>
+						<div class="user__detail blog">
+								<img src="assets/icon-website.svg" alt="website icon">
+								<span class="user__blog-link" id="blog">https://github.blog</span>
+						</div>
+						<div class="user__detail twitter_username">
+								<img src="assets/icon-twitter.svg" alt="twitter icon">
+								<span class="user__twitter-name" id="twitter_username">Not Available</span>
+						</div>
+						<div class="user__detail company">
+								<img src="assets/icon-company.svg" alt="company icon">
+								<span class="user__work-name" id="company">@github</span>
+						</div>
+				</section>
+		</main>		
+</body>
+</html>

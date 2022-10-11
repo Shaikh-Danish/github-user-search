@@ -1,0 +1,27 @@
+:root {
+		--bg-light: #F2F5FE;
+		--bg-dark: #141D2E;
+		--bg-blue: #1D2B48;
+	
+		--clr-white: #ffffff;
+}
+
+body,
+.user__social {
+		background-color: var(--bg-dark);
+		color: var(--clr-white);
+}
+
+.search,
+.search__input,
+.user {
+		background-color: var(--bg-blue);
+}
+
+.user--container p:last-child,
+.header__theme-name,
+.search__input,
+.user__name,
+.user {
+		color: var(--clr-white);
+}
