@@ -42,7 +42,7 @@ searchUsrBtn.addEventListener('click', getUserData);
 function changeTheme() {
 		if (!darkMode) {
 				darkMode = true;
-				document.getElementById('theme-dark').href = 'darktheme.css';
+				document.getElementById('theme-dark').href = 'css/darktheme.css';
 				
 				currentTheme.textContent = 'LIGHT';
 				themeIcon.src = 'assets/icon-sun.svg';
@@ -88,9 +88,6 @@ function updateProfile(data) {
 				updateDetail(blog, data);
 				updateDetail(twitter, data);
 				updateDetail(work, data);
-		}
-		else {
-				console.log('w')
 		}
 }
 
